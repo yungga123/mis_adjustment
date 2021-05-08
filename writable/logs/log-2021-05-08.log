@@ -64,3 +64,12 @@ CRITICAL - 2021-05-08 02:46:43 --> Invalid file: adjustment/footer.php
 #5 C:\xampp\htdocs\mis_adjustment\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #6 C:\xampp\htdocs\mis_adjustment\public\index.php(44): CodeIgniter\CodeIgniter->run()
 #7 {main}
+CRITICAL - 2021-05-08 10:47:02 --> Class 'CodeIgniter\Cache\CacheFactory' not found
+#0 C:\xampp\htdocs\mis_adjustment\system\Config\BaseService.php(100): CodeIgniter\Config\Services::cache(Object(Config\Cache), false)
+#1 C:\xampp\htdocs\mis_adjustment\system\Config\Services.php(103): CodeIgniter\Config\BaseService::getSharedInstance('cache', NULL)
+#2 C:\xampp\htdocs\mis_adjustment\system\Config\BaseService.php(171): CodeIgniter\Config\Services::cache()
+#3 C:\xampp\htdocs\mis_adjustment\system\Common.php(71): CodeIgniter\Config\BaseService::__callStatic('cache', Array)
+#4 C:\xampp\htdocs\mis_adjustment\system\CodeIgniter.php(658): cache()
+#5 C:\xampp\htdocs\mis_adjustment\system\CodeIgniter.php(319): CodeIgniter\CodeIgniter->displayCache(Object(Config\Cache))
+#6 C:\xampp\htdocs\mis_adjustment\public\index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
